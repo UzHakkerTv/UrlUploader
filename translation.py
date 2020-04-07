@@ -36,7 +36,7 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan nomi: Bepul
 Muddati tugaydi: 31/12/2020"""
-    HELP_USER = """Salom, URL-ni yuklash botiman ..
+    HELP_USER = """Salom, Men URL ni yuklash botiman ..
     
 1. URL manzilini yuboring (Link|Kengaytmali yangi nom).
 2. Boshqa eskizni yuborish (ixtiyoriy).
@@ -50,8 +50,8 @@ Muddati tugaydi: 31/12/2020"""
 
 --------
 
-Dasturchi : @RedFoc
-© @PHP_Secrets , @app_Telegraph_Uzbek & @EHMUZ"""
+💻Dasturchi: @RedFoc
+📡Kanallarimiz @PHP_Secrets , @app_Telegraph_Uzbek , @EHMUZ"""
     REPLY_TO_DOC_GET_LINK = "Yuqori tezlikda to'g'ridan-to'g'ri yuklab olish havolasini olish uchun Telegram media-ga javob bering"
     REPLY_TO_DOC_FOR_C2V = "O'zgartirish uchun Telegram media-ga javob bering"
     REPLY_TO_DOC_FOR_SCSS = "Skrinshotlarni olish uchun Telegram media-ga javob bering"
