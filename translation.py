@@ -1,26 +1,26 @@
 class Translation(object):
-    START_TEXT = """Salom,
-Bu Telegram URL manzilini yuklash boti!
+    START_TEXT = """😊Salom
 
-<b>Iltimos, menga to'g'ridan-to'g'ri yuklab olish uchun URL manzilini yuboring, men uni Telegramga Fayl/Video sifatida yuklay olaman</b>
+🤖Ushbu Botimiz Telegram orqali Hohlagan URL manzillarni ko'chirib olish boti hisoblanadi.
 
-Tafsilotlar uchun /help ..
+📹YouTube dan ham Vedio Yuklab berishimiz mumkin
+Buning uchun /help buyrug'ini yuborib To'liq ma'lumot bilib oling.
 
-Dasturchi : @RedFoc
-© @PHP_Secrets , @app_Telegraph_Uzbek & @EHMUZ"""
+💻Dasturchi: @RedFoc
+📡Kanallarimiz @PHP_Secrets , @app_Telegraph_Uzbek , @EHMUZ"""
     RENAME_403_ERR = "Kechirasiz. Sizga ushbu faylning nomini o'zgartirish huquqi berilmagan."
     ABS_TEXT = " Iltimos, xudbin bo'lmang."
-    UPGRADE_TEXT = "<b>👉 Ishlatish bo'yicha qo'llanma </b>"
-    FORMAT_SELECTION = "Kerakli formatni tanlang: <a href='{}'>fayl hajmi taxminiy bo'lishi mumkin</a> \nAgar siz o'zingizning shaxsiy eskizingizni o'rnatmoqchi bo'lsangiz, fotosuratni quyida joylashgan tugmalardan birini bosishdan oldin yoki tezda bosing.\nAvtomatik yaratilgan eskizni o'chirish uchun siz /deletethumbnail dan foydalanishingiz mumkin."
+    UPGRADE_TEXT = "<b>👉 /help buyrug'ini yuboring </b>"
+    FORMAT_SELECTION = "☝️Kerakli formatni tanlang: <a href='{}'>fayl hajmi taxminiy bo'lishi mumkin</a> \n👇Quyidagi Tugmalardan birini bosish orqali Siz Tashlagan URL manzilingizni 📁File/Vedio📹 Farmqatlarda ⚙️o'zingizga moslab olishingiz mumkin.\n\n👍Biz Bilan Birga Qoling @PHP_Secrets"
     SET_CUSTOM_USERNAME_PASSWORD = """Agar siz premium videolarni yuklab olishni xohlasangiz, quyidagi formatda taqdim eting:
 URL | filename | username | password"""
     NOYES_URL = "@URL_Uploader_XBot URL topildi. Iltimos, https://t.me/RedFoc dan foydalaning va menga tezkor URL manzilini oling, shunda men Telegram-ga yuklay olaman, boshqa foydalanuvchilar uchun sekinlashmasdan."
-    DOWNLOAD_START = "yuklab olishga harakat qilmoqda"
-    UPLOAD_START = "yuklashga harakat qilmoqda"
-    RCHD_BOT_API_LIMIT = "hajmi ruxsat etilgan kattalikdan (50MB) kattaroq. Shunga qaramay, yuklashga harakat qilmoqda."
-    RCHD_TG_API_LIMIT = "Yuklab olingan {} sekund.\nAniqlangan fayl hajmi: {}\nKechirasiz. Ammo, men Telegram API cheklovlari tufayli 1.5GB dan katta fayllarni yuklay olmayman."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Iltimos, menga foydali deb bilsangiz, baholang. Qo'shiling: @PHP_Secrets"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "{} Soniya ichida yuklab olindi. \nKanalimiz : @PHP_Secrets\n{} Soniya ichida yuklandi."
+    DOWNLOAD_START = "📥Yuklab Olinmoqda..."
+    UPLOAD_START = "📤Yuklanmoqda..."
+    RCHD_BOT_API_LIMIT = "Hajmi ruxsat etilgan kattalikdan (50MB) kattaroq. Shunga qaramay, yuklashga harakat qilmoqda."
+    RCHD_TG_API_LIMIT = "📥Yuklab olingan {} sekund.\n🎚Aniqlangan fayl hajmi: {}\nKechirasiz. Ammo, men Telegram API cheklovlari tufayli 1.5GB dan katta fayllarni yuklay olmayman."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "🙏Iltimos, meni foydali deb bilsangiz, baholash maqsadida Kanalimizga Qo'shiling: @PHP_Secrets"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "{} Soniya ichida yuklab olindi.📥\n{} Soniya ichida yuklandi.📤\n📡Kanalimiz : @PHP_Secrets"
     NOT_AUTH_USER_TEXT = "Iltimos /upgrade obunangizni."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Aniqlangan fayl hajmi: {}. Bepul foydalanuvchilar faqat yuklashlari mumkin: {}\nIltimos /upgrade obunangizni.\nAgar bu xato deb o'ylasangiz, iltimos murojaat qiling <a href='https://telegram.me/RedFoc'>@RedFoc</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Shaxsiy video/fayl eskizi saqlandi. Ushbu rasm video/faylda ishlatiladi."
@@ -41,12 +41,12 @@ Muddati tugaydi: 31/12/2020"""
 1. URL manzilini yuboring (Link|Kengaytmali yangi nom).
 2. Boshqa eskizni yuborish (ixtiyoriy).
 3. Tugmani tanlang.
-   SVideo - Skrinshotlar yordamida faylni video sifatida bering
-   DFile - Skrinshot bilan fayl bering
-   Video - Faylni skrinshotisiz video sifatida bering
-   DFile - Faylni screnshotsiz bering bering
+   SVideo - Skrinshotlar va video sifatida yuboradi.
+   DFile - Skrinshot va fayl sifatida yuboradi. 
+   Video - Skrinshotlarsiz videoni o'zini yuboradi.
+   File - Skrinshotsiz fayni o'zini yuboradi.
    
-<b>👉 Qo'llanma(Yo'riqnoma) :</b> 👉 <a href="">Bosing</a>
+<b>👉 Qo'llanma(Yo'riqnoma) :</b> 👉 <a href="https://telegra.ph/URL-Uploader-XBot-da-ishlash-Version-21-04-07">Bosing</a>
 
 --------
 
