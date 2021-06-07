@@ -35,6 +35,7 @@ from hachoir.parser import createParser
 # https://stackoverflow.com/a/37631799/4723940
 from PIL import Image
 from helper_funcs.help_Nekmo_ffmpeg import generate_screen_shots
+from pyrogram.types import InputMediaPhoto
 
 
 async def youtube_dl_call_back(bot, update):
@@ -240,6 +241,7 @@ async def youtube_dl_call_back(bot, update):
                     img.resize((90, height))
                 img.save(thumb_image_path, "JPEG")
                 # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
+                
             else:
                 thumb_image_path = None
             start_time = time.time()
@@ -322,14 +324,14 @@ async def youtube_dl_call_back(bot, update):
             media_album_p = []
             if images is not None:
                 i = 0
-                caption = "© @PHP_Secrets"
+                caption = "© @TGBotsZ"
                 if is_w_f:
-                    caption = "/upgrade suv belgisini olib tashlash uchun D rejasiga o'ting\n© @RedFoc"
+                    caption = "/upgrade to Plan D to remove the watermark\n© @AnyDLBot"
                 for image in images:
-                    if os.path.exists(image):
+                    if os.path.exists(str(image)):
                         if i == 0:
                             media_album_p.append(
-                                pyrogram.InputMediaPhoto(
+                                InputMediaPhoto(
                                     media=image,
                                     caption=caption,
                                     parse_mode="html"
@@ -337,7 +339,7 @@ async def youtube_dl_call_back(bot, update):
                             )
                         else:
                             media_album_p.append(
-                                pyrogram.InputMediaPhoto(
+                                InputMediaPhoto(
                                     media=image
                                 )
                             )
